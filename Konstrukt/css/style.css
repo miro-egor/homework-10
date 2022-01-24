@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url("img/illustration.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+}
+.container {
+  max-width: 1840px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header {
+  position: sticky;
+  top: 0;
+  height: 55px;
+  background-color: #fff;
+  margin-bottom: 55px;
+}
+.header .container {
+  display: flex;
+  justify-content: space-between;
+}
+.header__wrapper {
+  display: flex;
+  align-items: center;
+}
+.header__wrapper img {
+  margin-right: 42px;
+}
+.header__wrapper a {
+  text-decoration: none;
+  color: #000;
+}
+.Documentation::after {
+  content: "  /";
+}
+.main__info .container {
+  display: flex;
+  justify-content: space-between;
+}
+.sidebar {
+  position: sticky;
+  top: 110px;
+  height: 460px;
+  background-color: #fff;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: 900;
+}
+.sidebar ul {
+  list-style: none;
+}
+.sidebar li {
+  min-width: 430px;
+  white-space: nowrap;
+  margin-bottom: 95px;
+  border-bottom: 1px solid #bfbfbf;
+}
+.sidebar a {
+  color: #000;
+  text-decoration: none;
+}
+.basic__information {
+  width: 1160px;
+  font-size: 36px;
+  font-weight: 900;
+  line-height: 48px;
+}
+.basic__information ul {
+  list-style: none;
+}
+.basic__information .border-top {
+  width: 80px;
+  border-top: 12px solid #000;
+  transform: rotate(0.42deg);
+  margin-bottom: 25px;
+}
+.basic__information h2 {
+  margin-bottom: 80px;
+}
+.basic__information p {
+  margin-bottom: 75px;
+}
+.basic__information b::before {
+  content: "+ ";
+}
